@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMVideoMaker.Desktop", "PMVideoMaker\PMVideoMaker.Desktop.csproj", "{3620B3B9-6DEE-4057-BF05-8D3DDDEFE6BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PMVideoMaker.Core", "PMVideoMaker.Core\PMVideoMaker.Core.csproj", "{945C0A1C-D492-4440-A142-3C653804A84C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TimeLapse", "TimeLapse", "{77829A13-E392-4AD5-A186-4ED501363882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeLapse.Core", "TimeLapse.Core\TimeLapse.Core.csproj", "{7703C38D-27E9-44E6-9A0A-8B1A99EC8E33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ImageTuner", "ImageTuner", "{5E05AA39-8034-4718-A78C-9A7BB298BF0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageTuner.Core", "ImageTuner.Core\ImageTuner.Core.csproj", "{21615D22-DF99-48C8-BB54-610D820AE7AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PMVideoMaker.Common", "PMVideoMaker.Common\PMVideoMaker.Common.csproj", "{F0FF12CA-D606-477B-AE90-E87A1543CB42}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3620B3B9-6DEE-4057-BF05-8D3DDDEFE6BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3620B3B9-6DEE-4057-BF05-8D3DDDEFE6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3620B3B9-6DEE-4057-BF05-8D3DDDEFE6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3620B3B9-6DEE-4057-BF05-8D3DDDEFE6BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{945C0A1C-D492-4440-A142-3C653804A84C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{945C0A1C-D492-4440-A142-3C653804A84C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{945C0A1C-D492-4440-A142-3C653804A84C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{945C0A1C-D492-4440-A142-3C653804A84C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7703C38D-27E9-44E6-9A0A-8B1A99EC8E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7703C38D-27E9-44E6-9A0A-8B1A99EC8E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7703C38D-27E9-44E6-9A0A-8B1A99EC8E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7703C38D-27E9-44E6-9A0A-8B1A99EC8E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21615D22-DF99-48C8-BB54-610D820AE7AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21615D22-DF99-48C8-BB54-610D820AE7AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21615D22-DF99-48C8-BB54-610D820AE7AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21615D22-DF99-48C8-BB54-610D820AE7AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0FF12CA-D606-477B-AE90-E87A1543CB42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0FF12CA-D606-477B-AE90-E87A1543CB42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0FF12CA-D606-477B-AE90-E87A1543CB42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0FF12CA-D606-477B-AE90-E87A1543CB42}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7703C38D-27E9-44E6-9A0A-8B1A99EC8E33} = {77829A13-E392-4AD5-A186-4ED501363882}
+		{21615D22-DF99-48C8-BB54-610D820AE7AE} = {5E05AA39-8034-4718-A78C-9A7BB298BF0D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01971263-CDD2-4E1C-AA71-79700C4BFC80}
+	EndGlobalSection
+EndGlobal
