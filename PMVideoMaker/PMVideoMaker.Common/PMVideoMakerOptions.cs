@@ -2,7 +2,7 @@
 
 namespace PMVideoMaker.Common
 {
-    public class PMVideoMakeOptions
+    public class PMVideoMakerOptions
     {
     }
 }

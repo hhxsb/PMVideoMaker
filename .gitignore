@@ -108,3 +108,5 @@ ENV/
 /PMVideoMaker/ImageTuner.Core/obj
 /PMVideoMaker/PMVideoMaker.Common/obj
 /PMVideoMaker/TimeLapse.Core/obj
+/PMVideoMaker/TimeLapse.CLTool/obj/Debug
+/PMVideoMaker/PMVideoMaker.Common/bin/Debug/netstandard2.0
