@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net461</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PMVideoMaker.Common\PMVideoMaker.Common.csproj" />
+    <ProjectReference Include="..\TimeLapse.Core\TimeLapse.Core.csproj" />
+  </ItemGroup>
+
+</Project>
