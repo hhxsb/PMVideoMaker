@@ -48,5 +48,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PMVideoMaker.Common\PMVideoMaker.Common.csproj">
+      <Project>{f0ff12ca-d606-477b-ae90-e87a1543cb42}</Project>
+      <Name>PMVideoMaker.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TimeLapse.Core\TimeLapse.Core.csproj">
+      <Project>{7703c38d-27e9-44e6-9a0a-8b1a99ec8e33}</Project>
+      <Name>TimeLapse.Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
