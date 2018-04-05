@@ -100,13 +100,10 @@ ENV/
 # mypy
 .mypy_cache/
 *.suo
-/PMVideoMaker/PMVideoMaker/bin/Debug
-/PMVideoMaker/PMVideoMaker/obj/Debug
-/PMVideoMaker/PMVideoMaker.Core/obj
-/PMVideoMaker/PMVideoMaker.Core/bin/Debug/netstandard2.0
-/PMVideoMaker/.vs/PMVideoMaker/v15/Server/sqlite3
-/PMVideoMaker/ImageTuner.Core/obj
-/PMVideoMaker/PMVideoMaker.Common/obj
-/PMVideoMaker/TimeLapse.Core/obj
-/PMVideoMaker/TimeLapse.CLTool/obj/Debug
-/PMVideoMaker/PMVideoMaker.Common/bin/Debug/netstandard2.0
+
+# bin and obj
+bin/
+obj/
+
+# visual studio related
+.vs/
